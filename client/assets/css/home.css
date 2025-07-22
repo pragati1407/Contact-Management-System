@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding-inline: 30px;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    word-spacing: 1%;
+}
+
+.home-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}

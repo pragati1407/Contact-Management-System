@@ -6,18 +6,17 @@ import axios from 'axios';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-// ✅ Corrected import paths (all lowercase folders)
-import Home from './pages/Home.jsx';
-import Register from '../pages/Register';
-import Login from '../pages/Login';// 🔥 FIXED PATH
-import Dashboard from '../pages/Dashboard';
+
+import Home from '../pages/Home.jsx';
+import Register from './pages/Register.jsx';
+import Login from './pages/Login.js';
+import Dashboard from './pages/Dashboard.jsx';
 import Contact from './component/Contact';
 import AddContact from './component/AddContact';
 
-// ✅ Context to share user across components (e.g., Dashboard)
+
 export const UserContext = createContext(null);
 
-// ✅ React Router config (nested routes work fine this way)
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
   { path: '/register', element: <Register /> },

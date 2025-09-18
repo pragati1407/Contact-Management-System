@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "../assets/css/form.css";
+
 import Validation from '../component/Validation';
 import axios from "axios";
 import { toast } from "react-toastify";

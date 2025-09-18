@@ -7,7 +7,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 // ✅ Corrected import paths (all lowercase folders)
-import Home from '../pages/Home';
+import Home from './pages/Home.jsx';
 import Register from '../pages/Register';
 import Login from '../pages/Login';// 🔥 FIXED PATH
 import Dashboard from '../pages/Dashboard';

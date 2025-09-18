@@ -8,6 +8,7 @@ dotenv.config({ path: "./config/.env" });
 
 const app = express();
 
+
 // CORS configuration
 const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174']; // React dev servers
 app.use(cors({
@@ -15,6 +16,12 @@ app.use(cors({
     credentials: true
 }));
 
+app.get('/', (req,res)=>{
+    res.send({
+        activeStatus:true,
+        error:false,
+    })
+})
 // Middleware
 app.use(express.json());
 

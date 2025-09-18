@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 // ✅ Corrected import paths (all lowercase folders)
 import Home from '../pages/Home';
 import Register from '../pages/Register';
-import Login from '../Pages/Login';// 🔥 FIXED PATH
+import Login from '../pages/Login';// 🔥 FIXED PATH
 import Dashboard from '../pages/Dashboard';
 import Contact from './component/Contact';
 import AddContact from './component/AddContact';
